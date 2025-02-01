@@ -1,0 +1,47 @@
+<% layout("layouts/boilerplates") %>
+
+<div class="row mt-3">
+    <div class="col-8 offset-2">
+        <h1>Edit your listing</h1>
+        <form method="post" action="/listings/<%= listing._id %>?_method=PUT" class="needs-validation" novalidate enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input name="listing[title]" type="text" value="<%= listing.title %>" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea name="listing[description]" class="form-control" required><%= listing.description %></textarea>
+            </div>
+
+            <div class="mb-3">
+                <img class="height = 250px width = 450px" 
+                src="<%= OrignalImageUrl %>" alt="listing[image]">
+            </div>
+
+            <div class="mb-3">
+                <label for="Image" class="form-label">Upload New Image</label>
+                <input name="listing[image]" type="file" 
+                class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label for="Price" class="form-label">Price</label>
+                <input name="listing[price]" type="number" value="<%= listing.price %>" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="Country" class="form-label">Country</label>
+                <input name="listing[country]" type="text" value="<%= listing.country %>" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="Location" class="form-label">Location</label>
+                <input name="listing[location]" type="text" value="<%= listing.location %>" class="form-control" required>
+            </div>
+            
+            <button class="mb-3 Update-btn" type="submit">Update</button>
+        </form>
+    </div>
+</div>
+ 
