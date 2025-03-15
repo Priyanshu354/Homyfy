@@ -27,18 +27,19 @@
 ---
 
 ## 📂 Project Structure  
+
 📦 WanderLust
--├── 📁 controllers # Handles business logic
--├── 📁 models # Database schemas
-├── 📁 routes # Express routes
-├── 📁 views # EJS templates for UI
-├── 📁 public # Static assets (CSS, JS, images)
-├── 📄 app.js # Main application file
-├── 📄 schema.js # Mongoose schema definitions
-├── 📄 middleware.js # Custom middleware for authentication & security
-├── 📄 cloudConfig.js # Cloudinary configuration for image uploads
-├── 📄 package.json # Dependencies and scripts
-└── 📄 README.md # Project documentation
+- 📁 controllers # Handles business logic
+- 📁 models # Database schemas
+- 📁 routes # Express routes
+- 📁 views # EJS templates for UI
+- 📁 public # Static assets (CSS, JS, images)
+- 📄 app.js # Main application file
+- 📄 schema.js # Mongoose schema definitions
+- 📄 middleware.js # Custom middleware for authentication & security
+- 📄 cloudConfig.js # Cloudinary configuration for image uploads
+- 📄 package.json # Dependencies and scripts
+- 📄 README.md # Project documentation
 
 
 ---
