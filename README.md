@@ -28,8 +28,8 @@
 
 ## 📂 Project Structure  
 📦 WanderLust
-├── 📁 controllers # Handles business logic
-├── 📁 models # Database schemas
+-├── 📁 controllers # Handles business logic
+-├── 📁 models # Database schemas
 ├── 📁 routes # Express routes
 ├── 📁 views # EJS templates for UI
 ├── 📁 public # Static assets (CSS, JS, images)
