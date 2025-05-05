@@ -37,7 +37,7 @@ const initDB = async () => {
     // Add owner field to the data
     initData.data = initData.data.map((obj) => ({
       ...obj,
-      owner: "6817c37ecc7b8f33af8df05e" // You can change the owner ID as needed
+      owner: "68183ba49bef9f5ab1b89c6d" // You can change the owner ID as needed
     }));
     
     // Insert the data
