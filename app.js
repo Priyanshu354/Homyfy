@@ -2,14 +2,10 @@ require('dotenv').config()
 
 const express = require("express");
 const app = express();
-const Listing = require("../Major Project/models/listing.js");
 const path = require("path");
 const methodOverride = require('method-override');
 const ejsMate = require("ejs-mate");
-const wrapAsyc = require("./utlis/wrapAsyc.js");
 const ExpressError = require("./utlis/ExpressError.js");
-const { listingSchema, reviewSchema } = require("./schema.js");
-const Review = require("../Major Project/models/review.js");
 const session = require("express-session");
 const MongoStore = require('connect-mongo');
 const flash = require("connect-flash");
