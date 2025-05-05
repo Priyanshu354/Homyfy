@@ -1,4 +1,4 @@
-# 🏡 WanderLust - Airbnb Full Stack Clone  
+# 🏡 Homyfy - Airbnb Full Stack Clone  
 
 **Homyfy** is a full-stack Airbnb-inspired web application built using **Node.js, Express.js, MongoDB, and Bootstrap**. This project allows users to explore, list, and book properties while providing authentication and user-friendly interactions.  
 
