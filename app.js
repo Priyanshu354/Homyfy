@@ -28,11 +28,12 @@ app.use(methodOverride('_method'));
 app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
-
+//mongodb://127.0.0.1:27017/wanderlust
 const dbUrl = process.env.ATLASDB_URL;
+const MongoDBUrl = dbUrl;
 
 const store = MongoStore.create({
-    mongoUrl: dbUrl,
+    mongoUrl: MongoDBUrl,
     crypto: {
         secret: process.env.SECRET,
     },
@@ -79,7 +80,7 @@ main().then(() => console.log("connected to DB"))
 .catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect(dbUrl);
+    await mongoose.connect(MongoDBUrl);
 };
 
 // app.get("/testlisting", async (req, res) => {
