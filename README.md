@@ -9,7 +9,6 @@
 - **User Authentication**: Secure login and signup with session-based authentication.  
 - **Property Listings**: Users can add, edit, and delete property listings with images.  
 - **Image Uploads**: Integrated **Cloudinary** for seamless image hosting.  
-- **Booking System**: Users can book available properties and manage their reservations.  
 - **Review & Ratings**: Users can leave reviews and rate properties.  
 - **Interactive UI**: Responsive and mobile-friendly design with Bootstrap.  
 - **Secure Middleware**: Protection against XSS, CSRF, and injection attacks.  
@@ -46,7 +45,8 @@
 
 ## 📌 Future Improvements  
 
-- Implement **real-time chat** between hosts and guests.  
+- Implement **real-time chat** between hosts and guests.
+- Add **Booking System**: Users can book available properties and manage their reservations.   
 - Add **payment integration** for seamless transactions.  
 - Enhance **search and filtering** for better property discovery.  
 - Optimize for **SEO and performance** improvements.  
